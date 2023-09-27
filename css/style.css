@@ -27,7 +27,7 @@ nav {
     
 }
  .brand i{
-color:green;
+color:rgba(88,1,51,255);
 font-size: 28px;
 }
 nav ul{
@@ -44,6 +44,7 @@ nav ul li{
     list-style-type: none;
     padding:0px 10px;
     gap:10%;
+    cursor: pointer;
     
 }
 li.spacer {
@@ -93,7 +94,7 @@ li.spacer {
     flex-direction: column;
     align-items: right;
 }
-.songItems{
+.songItem{
     height:40px;
     display:flex;
     background-color: white;
@@ -106,7 +107,7 @@ li.spacer {
     align-items: center;
     border-radius: 30px;
 }
-.songItems img{
+.songItem img{
     width:43px;
     margin:0 20px ;
     border-radius: 34px;
